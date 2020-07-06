@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>api geo</title>
+        <link rel="stylesheet" href="public/css/style.css">
+        <script src="public/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <form action="" method="GET">
+                <div class="apiAdresse">
+                    <div class="api">
+                        <label for="adresseC">Adresse:
+                        </label>
+                        <input
+                            class="formAdresse"
+                            name="adresse"
+                            id="adresseC"
+                            placeholder=" Votre adresse"
+                            type="text"
+                            required="required"
+                            title="Veuillez inscrire une adresse"
+                            onchange="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);"
+                            autocomplete="off"></input>
+                        </div>
+                </div>
+                <div class="show"><ul id="search"></ul></div>
+            </form>
+        </div>
+
+            <script src="public/js/api.js"></script>
+            <script src="public/js/creds.js"></script>
+
+    </body>
+    </html>
