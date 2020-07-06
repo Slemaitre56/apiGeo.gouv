@@ -1,6 +1,6 @@
 # documentation
 
-![Image description](public/images/accueil.PNG)
+![Image description](public/image/accueil.PNG)
 
 ## PROJET API GEO.GOUV
 ### AUTEUR : 
