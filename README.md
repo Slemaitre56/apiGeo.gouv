@@ -5,7 +5,7 @@
 ## PROJET API GEO.GOUV
 ### AUTEUR : 
 
-Stéphanie Lemaitre, éléve Kercode alias @Slemaitre
+Stéphanie Lemaitre, alias @Slemaitre
 
 ### ETAT DU PROJET : 
 
